@@ -1,0 +1,32 @@
+/* Custom Styles for Portfolio */
+html, body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    scroll-behavior: smooth;
+}
+
+/* Scroll animations */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-animate.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Links styling */
+.link {
+    text-decoration: none;
+    position: relative;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Ensure smooth scrolling */
+* {
+    scroll-behavior: smooth;
+}
