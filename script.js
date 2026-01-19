@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Project carousel
 let currentProjectIndex = 0;
-const totalProjects = 4;
+const totalProjects = 5;
 
 function updateProjectDisplay() {
     const carousel = document.getElementById('projectCarousel');
